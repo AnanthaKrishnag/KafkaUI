@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/v1")
 public class Controller {
 
-    @GetMapping
+    @GetMapping()
     public String returnName()
     {
         return "its me";
